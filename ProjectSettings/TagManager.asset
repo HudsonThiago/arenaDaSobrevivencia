@@ -8,6 +8,7 @@ TagManager:
   - PlayerShoot
   - Monster
   - Object
+  - MonsterSpawn
   layers:
   - Default
   - TransparentFX

@@ -1,0 +1,2037 @@
+fileFormatVersion: 2
+guid: 10f620fbf2340c3489f589a3e7c3991d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1737884496820240548
+    second: XPBar_0
+  - first:
+      213: -9124246192761165882
+    second: XPBar_1
+  - first:
+      213: 5678706003872262661
+    second: XPBar_2
+  - first:
+      213: -7575096119491840540
+    second: XPBar_3
+  - first:
+      213: -1462908653166075041
+    second: XPBar_4
+  - first:
+      213: -4886421233564612217
+    second: XPBar_5
+  - first:
+      213: 6284026828419521510
+    second: XPBar_6
+  - first:
+      213: 2720268170164707488
+    second: XPBar_7
+  - first:
+      213: -7207141659190733493
+    second: XPBar_8
+  - first:
+      213: 5602066725091990626
+    second: XPBar_9
+  - first:
+      213: -7161580962322235629
+    second: XPBar_10
+  - first:
+      213: -7448150507688943916
+    second: XPBar_11
+  - first:
+      213: 3324728295641783588
+    second: XPBar_12
+  - first:
+      213: -7136060599219279447
+    second: XPBar_13
+  - first:
+      213: -3552263488892123137
+    second: XPBar_14
+  - first:
+      213: -230563335906211404
+    second: XPBar_15
+  - first:
+      213: -882650389025580671
+    second: XPBar_16
+  - first:
+      213: -3215598044015976518
+    second: XPBar_17
+  - first:
+      213: 3840497204611488243
+    second: XPBar_18
+  - first:
+      213: -760611844275611481
+    second: XPBar_19
+  - first:
+      213: 2673511597535118426
+    second: XPBar_20
+  - first:
+      213: 5079198086260148160
+    second: XPBar_21
+  - first:
+      213: -1962254286203180885
+    second: XPBar_22
+  - first:
+      213: -8694816854583815358
+    second: XPBar_23
+  - first:
+      213: 6089228557260031752
+    second: XPBar_24
+  - first:
+      213: -9034160681303709704
+    second: XPBar_25
+  - first:
+      213: -6284464771401103438
+    second: XPBar_26
+  - first:
+      213: -2043222287595961988
+    second: XPBar_27
+  - first:
+      213: -7583434286877417202
+    second: XPBar_28
+  - first:
+      213: -5718306538066236269
+    second: XPBar_29
+  - first:
+      213: 2482867571133516094
+    second: XPBar_30
+  - first:
+      213: -5855246593380141764
+    second: XPBar_31
+  - first:
+      213: -5774470429325672341
+    second: XPBar_32
+  - first:
+      213: -1876343421849744176
+    second: XPBar_33
+  - first:
+      213: -2669020200353657862
+    second: XPBar_34
+  - first:
+      213: -5932864590561035190
+    second: XPBar_35
+  - first:
+      213: -9127437327180393937
+    second: XPBar_36
+  - first:
+      213: 4082962688493642932
+    second: XPBar_37
+  - first:
+      213: 5614607132412740780
+    second: XPBar_38
+  - first:
+      213: 7564985065887307865
+    second: XPBar_39
+  - first:
+      213: -2197152244582617879
+    second: XPBar_40
+  - first:
+      213: 3882591315555569925
+    second: XPBar_41
+  - first:
+      213: -5360576273084930392
+    second: XPBar_42
+  - first:
+      213: 4622634156318380005
+    second: XPBar_43
+  - first:
+      213: 5466161021477324198
+    second: XPBar_44
+  - first:
+      213: 2379413317549952304
+    second: XPBar_45
+  - first:
+      213: -3212271564814402735
+    second: XPBar_46
+  - first:
+      213: -3559146991097465983
+    second: XPBar_47
+  - first:
+      213: 4701177384449937640
+    second: XPBar_48
+  - first:
+      213: 1080456186789994315
+    second: XPBar_49
+  - first:
+      213: -2158009811483038017
+    second: XPBar_50
+  - first:
+      213: -6942505608606318248
+    second: XPBar_51
+  - first:
+      213: -7091132291873464476
+    second: XPBar_52
+  - first:
+      213: -8820352144140677692
+    second: XPBar_53
+  - first:
+      213: 3675040630296478377
+    second: XPBar_54
+  - first:
+      213: 19558470246858169
+    second: XPBar_55
+  - first:
+      213: 3628454434726129362
+    second: XPBar_56
+  - first:
+      213: 4941832212961473081
+    second: XPBar_57
+  - first:
+      213: -4706196490353802071
+    second: XPBar_58
+  - first:
+      213: -154093100222320635
+    second: XPBar_59
+  - first:
+      213: 4207329544838922690
+    second: XPBar_60
+  - first:
+      213: -1603930003836045468
+    second: XPBar_61
+  - first:
+      213: 2508520032020076
+    second: XPBar_62
+  - first:
+      213: 354112989802035047
+    second: XPBar_63
+  - first:
+      213: 1543386103683823720
+    second: XPBar_64
+  - first:
+      213: 6389449976763338325
+    second: XPBar_65
+  - first:
+      213: 8921396093542975744
+    second: XPBar_66
+  - first:
+      213: 4204113673648813044
+    second: XPBar_67
+  - first:
+      213: 2585380699868226507
+    second: XPBar_68
+  - first:
+      213: 912979411015510437
+    second: XPBar_69
+  - first:
+      213: 2117476402814818536
+    second: XPBar_70
+  - first:
+      213: 5620426555104610366
+    second: XPBar_71
+  - first:
+      213: -3228293677247163860
+    second: XPBar_72
+  - first:
+      213: -6603248250087378187
+    second: XPBar_73
+  - first:
+      213: -1635255990497802923
+    second: XPBar_74
+  - first:
+      213: 5697254694012219366
+    second: XPBar_75
+  - first:
+      213: -5903730319095252179
+    second: XPBar_76
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: XPBar_0
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 5
+        width: 10
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5ffe52024bc1e7e0800000000000000
+      internalID: -1737884496820240548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_1
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c7a2451e6a206180800000000000000
+      internalID: -9124246192761165882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_2
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50a2fa00601dece40800000000000000
+      internalID: 5678706003872262661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_3
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e5bf32c63adfd690800000000000000
+      internalID: -7575096119491840540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_4
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f53e03da454b2bbe0800000000000000
+      internalID: -1462908653166075041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_5
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 789847607c1ff2cb0800000000000000
+      internalID: -4886421233564612217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_6
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eb58f23b19553750800000000000000
+      internalID: 6284026828419521510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_7
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a02878fc7550c520800000000000000
+      internalID: 2720268170164707488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_8
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b45540698d61bfb90800000000000000
+      internalID: -7207141659190733493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_9
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26cd425610a8ebd40800000000000000
+      internalID: 5602066725091990626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_10
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31f3596fe04fc9c90800000000000000
+      internalID: -7161580962322235629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_11
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4de1e83439ad2a890800000000000000
+      internalID: -7448150507688943916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_12
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42d1b6c05cec32e20800000000000000
+      internalID: 3324728295641783588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_13
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a9afd781be97fc90800000000000000
+      internalID: -7136060599219279447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_14
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff7cef37d23d3bec0800000000000000
+      internalID: -3552263488892123137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_15
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b9c4191edfdcccf0800000000000000
+      internalID: -230563335906211404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_16
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 189154dc52230c3f0800000000000000
+      internalID: -882650389025580671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_17
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abf9cfdad96ef53d0800000000000000
+      internalID: -3215598044015976518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_18
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f99fb91cdf2c4530800000000000000
+      internalID: 3840497204611488243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_19
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 5
+        width: 10
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a85ff9be83c175f0800000000000000
+      internalID: -760611844275611481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_20
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a54c7f112a83a1520800000000000000
+      internalID: 2673511597535118426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_21
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c7416bafbfec7640800000000000000
+      internalID: 5079198086260148160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_22
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba82fd78f1ca4c4e0800000000000000
+      internalID: -1962254286203180885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_23
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 243d37b432ec55780800000000000000
+      internalID: -8694816854583815358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_24
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80706a75c19418450800000000000000
+      internalID: 6089228557260031752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_25
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f76713b9b630a280800000000000000
+      internalID: -9034160681303709704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_26
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b74e21469819c8a0800000000000000
+      internalID: -6284464771401103438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_27
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c718ea6a72405a3e0800000000000000
+      internalID: -2043222287595961988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_28
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e016721e1ba32c690800000000000000
+      internalID: -7583434286877417202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_29
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39ca4c1208e74a0b0800000000000000
+      internalID: -5718306538066236269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_30
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3900c1b6eae47220800000000000000
+      internalID: 2482867571133516094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_31
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c35b249ee3cfdbea0800000000000000
+      internalID: -5855246593380141764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_32
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b60cb0e2db5fcdfa0800000000000000
+      internalID: -5774470429325672341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_33
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dc41006993e5f5e0800000000000000
+      internalID: -1876343421849744176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_34
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afb0493d44cb5fad0800000000000000
+      internalID: -2669020200353657862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_35
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4cbd1ba61b3aada0800000000000000
+      internalID: -5932864590561035190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_36
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2295c33c14d45180800000000000000
+      internalID: -9127437327180393937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_37
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b466d6cee899a830800000000000000
+      internalID: 4082962688493642932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_38
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 5
+        width: 10
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca406d080771bed40800000000000000
+      internalID: 5614607132412740780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_39
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 958195f16d93cf860800000000000000
+      internalID: 7564985065887307865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_40
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ec6330bca52281e0800000000000000
+      internalID: -2197152244582617879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_41
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 501d4bb0b3cb1e530800000000000000
+      internalID: 3882591315555569925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_42
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a6a26bf7486b95b0800000000000000
+      internalID: -5360576273084930392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_43
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5efc1fdf545e62040800000000000000
+      internalID: 4622634156318380005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_44
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a50e32fc74bbdb40800000000000000
+      internalID: 5466161021477324198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_45
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03d066e3ecf550120800000000000000
+      internalID: 2379413317549952304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_46
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15b3629f708bb63d0800000000000000
+      internalID: -3212271564814402735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_47
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1833c343bae5b9ec0800000000000000
+      internalID: -3559146991097465983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_48
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e01d3a5cefed3140800000000000000
+      internalID: 4701177384449937640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_49
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4f9df86d2d8efe00800000000000000
+      internalID: 1080456186789994315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_50
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbeeeb492853d02e0800000000000000
+      internalID: -2158009811483038017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_51
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8510dd39ee347af90800000000000000
+      internalID: -6942505608606318248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_52
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46f949f30cc379d90800000000000000
+      internalID: -7091132291873464476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_53
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cdc3a60570d79580800000000000000
+      internalID: -8820352144140677692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_54
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a203f76bfd500330800000000000000
+      internalID: 3675040630296478377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_55
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bdf967335c754000800000000000000
+      internalID: 19558470246858169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_56
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2deaa81851cda5230800000000000000
+      internalID: 3628454434726129362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_57
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 5
+        width: 10
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 932b629f63ae49440800000000000000
+      internalID: 4941832212961473081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_58
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a4854df93b30beb0800000000000000
+      internalID: -4706196490353802071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_59
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 500f8ea442d8cddf0800000000000000
+      internalID: -154093100222320635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_60
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c1412dfdef636a30800000000000000
+      internalID: 4207329544838922690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_61
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 467f2c4d822bdb9e0800000000000000
+      internalID: -1603930003836045468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_62
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c66ab655c79e80000800000000000000
+      internalID: 2508520032020076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_63
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 767708753ef0ae400800000000000000
+      internalID: 354112989802035047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_64
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 868395deb753b6510800000000000000
+      internalID: 1543386103683823720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_65
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55e4b1fa6e2eba850800000000000000
+      internalID: 6389449976763338325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_66
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 009cf20ca7a2fcb70800000000000000
+      internalID: 8921396093542975744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_67
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f33331ac13085a30800000000000000
+      internalID: 4204113673648813044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_68
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc3ebc07c0e11e320800000000000000
+      internalID: 2585380699868226507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_69
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a923d8efed8bac00800000000000000
+      internalID: 912979411015510437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_70
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e89c0ac199c26d10800000000000000
+      internalID: 2117476402814818536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_71
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e38ce2f6c24cffd40800000000000000
+      internalID: 5620426555104610366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_72
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c221b09310cc233d0800000000000000
+      internalID: -3228293677247163860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_73
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f272d9b3bc8c54a0800000000000000
+      internalID: -6603248250087378187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_74
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5558c8137576e49e0800000000000000
+      internalID: -1635255990497802923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_75
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 25
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ef668775f6b01f40800000000000000
+      internalID: 5697254694012219366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XPBar_76
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 5
+        width: 10
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2bbf98dd8cb11ea0800000000000000
+      internalID: -5903730319095252179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      XPBar_0: -1737884496820240548
+      XPBar_1: -9124246192761165882
+      XPBar_10: -7161580962322235629
+      XPBar_11: -7448150507688943916
+      XPBar_12: 3324728295641783588
+      XPBar_13: -7136060599219279447
+      XPBar_14: -3552263488892123137
+      XPBar_15: -230563335906211404
+      XPBar_16: -882650389025580671
+      XPBar_17: -3215598044015976518
+      XPBar_18: 3840497204611488243
+      XPBar_19: -760611844275611481
+      XPBar_2: 5678706003872262661
+      XPBar_20: 2673511597535118426
+      XPBar_21: 5079198086260148160
+      XPBar_22: -1962254286203180885
+      XPBar_23: -8694816854583815358
+      XPBar_24: 6089228557260031752
+      XPBar_25: -9034160681303709704
+      XPBar_26: -6284464771401103438
+      XPBar_27: -2043222287595961988
+      XPBar_28: -7583434286877417202
+      XPBar_29: -5718306538066236269
+      XPBar_3: -7575096119491840540
+      XPBar_30: 2482867571133516094
+      XPBar_31: -5855246593380141764
+      XPBar_32: -5774470429325672341
+      XPBar_33: -1876343421849744176
+      XPBar_34: -2669020200353657862
+      XPBar_35: -5932864590561035190
+      XPBar_36: -9127437327180393937
+      XPBar_37: 4082962688493642932
+      XPBar_38: 5614607132412740780
+      XPBar_39: 7564985065887307865
+      XPBar_4: -1462908653166075041
+      XPBar_40: -2197152244582617879
+      XPBar_41: 3882591315555569925
+      XPBar_42: -5360576273084930392
+      XPBar_43: 4622634156318380005
+      XPBar_44: 5466161021477324198
+      XPBar_45: 2379413317549952304
+      XPBar_46: -3212271564814402735
+      XPBar_47: -3559146991097465983
+      XPBar_48: 4701177384449937640
+      XPBar_49: 1080456186789994315
+      XPBar_5: -4886421233564612217
+      XPBar_50: -2158009811483038017
+      XPBar_51: -6942505608606318248
+      XPBar_52: -7091132291873464476
+      XPBar_53: -8820352144140677692
+      XPBar_54: 3675040630296478377
+      XPBar_55: 19558470246858169
+      XPBar_56: 3628454434726129362
+      XPBar_57: 4941832212961473081
+      XPBar_58: -4706196490353802071
+      XPBar_59: -154093100222320635
+      XPBar_6: 6284026828419521510
+      XPBar_60: 4207329544838922690
+      XPBar_61: -1603930003836045468
+      XPBar_62: 2508520032020076
+      XPBar_63: 354112989802035047
+      XPBar_64: 1543386103683823720
+      XPBar_65: 6389449976763338325
+      XPBar_66: 8921396093542975744
+      XPBar_67: 4204113673648813044
+      XPBar_68: 2585380699868226507
+      XPBar_69: 912979411015510437
+      XPBar_7: 2720268170164707488
+      XPBar_70: 2117476402814818536
+      XPBar_71: 5620426555104610366
+      XPBar_72: -3228293677247163860
+      XPBar_73: -6603248250087378187
+      XPBar_74: -1635255990497802923
+      XPBar_75: 5697254694012219366
+      XPBar_76: -5903730319095252179
+      XPBar_8: -7207141659190733493
+      XPBar_9: 5602066725091990626
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

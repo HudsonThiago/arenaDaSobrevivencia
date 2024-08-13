@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
@@ -51,11 +52,11 @@ public class Monster : MonoBehaviour, HealthSystem
         currentHealth -= damage;
         if (currentHealth <= 0)
         {
-            Debug.Log("Abatido");
             alive = false;
             CircleCollider2D collider = damageArea.GetComponent<CircleCollider2D>();
             collider.enabled = false;
             animator.SetBool("Death", true);
+            StartCoroutine(death(1f));
         }
     }
 
@@ -68,8 +69,9 @@ public class Monster : MonoBehaviour, HealthSystem
         }
     }
 
-    public void death()
+    IEnumerator death(float time)
     {
+        yield return new WaitForSeconds(time);
         Destroy(gameObject);
     }
 
