@@ -1,15 +1,23 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.Rendering.Universal;
+using static UnityEngine.RuleTile.TilingRuleOutput;
 
 public enum Direction { Down, Right, Up, Left, DownLeft, DownRight, UpRight, UpLeft };
 
 public class PlayerActions : MonoBehaviour, HealthSystem
 {
-    [Header("Player Attributes")]
-    [SerializeField] private float maxHealth;
+    [Header("Main Player Attributes")]
+    public float maxHealth;
+    public float speed;
+    public float damage;
+    public float collectibleArea = 1f;
+    [Header("Other Player Attributes")]
     [SerializeField] private float currentHealth;
-    [SerializeField] private float speed;
-    [SerializeField] private float damage;
+    [SerializeField] private int currentXP = 0;
+    [SerializeField] private int maxXP = 10;
+    [SerializeField] private int level = 1;
     [Header("Player Settings")]
     [SerializeField] private Animator animator;
     [SerializeField] private Direction direction;
@@ -17,7 +25,7 @@ public class PlayerActions : MonoBehaviour, HealthSystem
     private Vector2 movement;
     [Header("Magic Shoot Settings")]
     public GameObject magicShootPrefab;
-    private Transform shootParent;
+    private GameObject shootParent;
     private Vector3 target;
 
     // Start is called before the first frame update
@@ -29,7 +37,7 @@ public class PlayerActions : MonoBehaviour, HealthSystem
         animator.SetFloat("x", 0f);
         animator.SetFloat("y", -1f);
         target = CameraTarget.getTarget();
-        shootParent = GameObject.FindGameObjectWithTag("PlayerShoot").transform;
+        shootParent = GameObject.FindGameObjectWithTag("PlayerShoot").gameObject;
     }
 
     public void setMovement(InputAction.CallbackContext value)
@@ -54,7 +62,9 @@ public class PlayerActions : MonoBehaviour, HealthSystem
     }
     void shoot()
     {
-        Instantiate(magicShootPrefab, gameObject.transform.position, Quaternion.identity, shootParent);
+        Vector3 shootPosition = gameObject.transform.position;
+        shootPosition.y += 0.3f;
+        Instantiate(magicShootPrefab, shootPosition, Quaternion.identity, shootParent.transform);
     }
 
 
@@ -119,23 +129,68 @@ public class PlayerActions : MonoBehaviour, HealthSystem
         return maxHealth;
     }
 
-    //public void setMaxHealth(float maxHealth)
-    //{
-    //    this.maxHealth = maxHealth;
-    //}
-
     public float getCurrentHealth()
     {
         return currentHealth;
     }
 
-    //public void setCurrentHealth(float currentHealth)
-    //{
-    //    this.currentHealth = currentHealth;
-    //}
+    public int getMaxXP()
+    {
+        return maxXP;
+    }
+
+    public int getCurrentXP()
+    {
+        return currentXP;
+    }
 
     public float getDamage()
     {
         return damage;
+    }
+
+    public int getLevel()
+    {
+        return level;
+    }
+
+    public void addXP(int xp)
+    {
+        currentXP += xp;
+        if (currentXP >= maxXP)
+        {
+            levelUp();
+        }
+    }
+
+    private void levelUp()
+    {
+        level++;
+        currentXP = currentXP - maxXP;
+        increaseMaxXp();
+        Time.timeScale = 0f;
+        PanelController.instance.goToScreen(1);
+        if (AttributeSystem.instance.getVolume().profile.TryGet(out DepthOfField depthOfField)){
+            depthOfField.active = true;
+        }
+    }
+
+    private void increaseMaxXp()
+    {
+        if (level == 1) maxXP = 10;
+        else if (level == 2) maxXP = 25;
+        else if (level == 3) maxXP = 50;
+        else if (level == 4) maxXP = 100;
+        else maxXP = maxXP + 50;
+    }
+
+    public float getCollectibleArea()
+    {
+        return collectibleArea;
+    }
+
+    public void getCollectibleArea(float collectibleArea)
+    {
+        this.collectibleArea = collectibleArea;
     }
 }

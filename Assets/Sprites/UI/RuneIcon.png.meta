@@ -1,0 +1,387 @@
+fileFormatVersion: 2
+guid: 482cb5196b05e5a43952ffcc9906f998
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9041193275444145929
+    second: RuneIcon_0
+  - first:
+      213: 975854398000312604
+    second: RuneIcon_1
+  - first:
+      213: -938492043299334532
+    second: RuneIcon_2
+  - first:
+      213: 3157964101477956223
+    second: RuneIcon_3
+  - first:
+      213: 1043408248609858187
+    second: RuneIcon_4
+  - first:
+      213: 6582500846731951727
+    second: RuneIcon_5
+  - first:
+      213: -2036211523419702574
+    second: RuneIcon_6
+  - first:
+      213: -220702610807062763
+    second: RuneIcon_7
+  - first:
+      213: 4128063277652940488
+    second: RuneIcon_8
+  - first:
+      213: -6969690860147683728
+    second: RuneIcon_9
+  - first:
+      213: -5020403901421640786
+    second: RuneIcon_10
+  - first:
+      213: -4735614713845160531
+    second: RuneIcon_11
+  - first:
+      213: -5118832615751647401
+    second: RuneIcon_12
+  - first:
+      213: -3968171486279134883
+    second: RuneIcon_13
+  - first:
+      213: -4274295994842780225
+    second: RuneIcon_14
+  - first:
+      213: 3771857855612949885
+    second: RuneIcon_15
+  - first:
+      213: -16475505721333039
+    second: RuneIcon_16
+  - first:
+      213: -4910793236299922340
+    second: RuneIcon_17
+  - first:
+      213: -853347104893032751
+    second: RuneIcon_18
+  - first:
+      213: 4030052192592915808
+    second: RuneIcon_19
+  - first:
+      213: -3642831336563115916
+    second: RuneIcon_20
+  - first:
+      213: -8415767606124544377
+    second: RuneIcon_21
+  - first:
+      213: 2128627955282905827
+    second: RuneIcon_22
+  - first:
+      213: 6974967248635484250
+    second: RuneIcon_23
+  - first:
+      213: -513868756267608012
+    second: RuneIcon_24
+  - first:
+      213: -873604134114665235
+    second: RuneIcon_25
+  - first:
+      213: -3117854510443564505
+    second: RuneIcon_26
+  - first:
+      213: -7725265687271865739
+    second: RuneIcon_27
+  - first:
+      213: 4279897526472517653
+    second: RuneIcon_28
+  - first:
+      213: -9157965980552048216
+    second: RuneIcon_29
+  - first:
+      213: -6775552717738610187
+    second: RuneIcon_30
+  - first:
+      213: -2675448949127195473
+    second: RuneIcon_31
+  - first:
+      213: 26904961458082303
+    second: RuneIcon_32
+  - first:
+      213: 8924604792121536260
+    second: RuneIcon_33
+  - first:
+      213: 8519599844999330171
+    second: RuneIcon_34
+  - first:
+      213: -8038784173456535908
+    second: RuneIcon_35
+  - first:
+      213: 2255717650754089643
+    second: RuneIcon_36
+  - first:
+      213: -4349568702864966054
+    second: RuneIcon_37
+  - first:
+      213: 6725891550150114178
+    second: RuneIcon_38
+  - first:
+      213: -8316538814845386437
+    second: RuneIcon_39
+  - first:
+      213: -8671945137589394355
+    second: RuneIcon_40
+  - first:
+      213: 577506981754785041
+    second: RuneIcon_41
+  - first:
+      213: -7087416085837784138
+    second: RuneIcon_42
+  - first:
+      213: -7309074599905699518
+    second: RuneIcon_43
+  - first:
+      213: 8819793490887654046
+    second: RuneIcon_44
+  - first:
+      213: 8481802782129080894
+    second: RuneIcon_45
+  - first:
+      213: 7155750175543512512
+    second: RuneIcon_46
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RuneIcon_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90faf78b165c87d70800000000000000
+      internalID: 9041193275444145929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuneIcon_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c11bf49976eea8d00800000000000000
+      internalID: 975854398000312604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuneIcon_2
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c76dc9e757ec9f2f0800000000000000
+      internalID: -938492043299334532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuneIcon_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7a77026e9753db20800000000000000
+      internalID: 3157964101477956223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuneIcon_4
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b826a1e164eea7e00800000000000000
+      internalID: 1043408248609858187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuneIcon_5
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6e7a2ff4adb95b50800000000000000
+      internalID: 6582500846731951727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: a18eabefadb6f0245a1250561ae92c33
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures:
+    - texture: {fileID: 2800000, guid: 18bd6fbd2bc9ac64b9659260d44cfcd8, type: 3}
+      name: _Emission
+    nameFileIdTable:
+      RuneIcon_0: 9041193275444145929
+      RuneIcon_1: 975854398000312604
+      RuneIcon_2: -938492043299334532
+      RuneIcon_3: 3157964101477956223
+      RuneIcon_4: 1043408248609858187
+      RuneIcon_5: 6582500846731951727
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

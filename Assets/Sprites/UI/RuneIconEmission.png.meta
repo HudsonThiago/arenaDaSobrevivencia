@@ -1,0 +1,387 @@
+fileFormatVersion: 2
+guid: 18bd6fbd2bc9ac64b9659260d44cfcd8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8425027229252001637
+    second: RuneIconEmission_0
+  - first:
+      213: 2830323211802933441
+    second: RuneIconEmission_1
+  - first:
+      213: -4392396357969067798
+    second: RuneIconEmission_2
+  - first:
+      213: 4792342369333600888
+    second: RuneIconEmission_3
+  - first:
+      213: -3032191013718456616
+    second: RuneIconEmission_4
+  - first:
+      213: -4945191195050737566
+    second: RuneIconEmission_5
+  - first:
+      213: -136686202946022387
+    second: RuneIconEmission_6
+  - first:
+      213: 2172189423229799042
+    second: RuneIconEmission_7
+  - first:
+      213: 6092358343915744413
+    second: RuneIconEmission_8
+  - first:
+      213: -787706383677454791
+    second: RuneIconEmission_9
+  - first:
+      213: 4393243716363329667
+    second: RuneIconEmission_10
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 0
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RuneIconEmission_0
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 332
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b90e0796f5a441b80800000000000000
+      internalID: -8425027229252001637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuneIconEmission_1
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 332
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c87e0727f3574720800000000000000
+      internalID: 2830323211802933441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuneIconEmission_2
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 332
+        width: 62
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae0c88ac8c21b03c0800000000000000
+      internalID: -4392396357969067798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuneIconEmission_3
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 83
+        width: 43
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 872ee267ef1d18240800000000000000
+      internalID: 4792342369333600888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuneIconEmission_4
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 63
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d60e28965e7be5d0800000000000000
+      internalID: -3032191013718456616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuneIconEmission_5
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 59
+        width: 51
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2608c901fc62f5bb0800000000000000
+      internalID: -4945191195050737566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuneIconEmission_6
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 67
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0494b36f946a1ef0800000000000000
+      internalID: -136686202946022387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuneIconEmission_7
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 76
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28a097c85ca252e10800000000000000
+      internalID: 2172189423229799042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuneIconEmission_8
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 91
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9c2c7592a76c8450800000000000000
+      internalID: 6092358343915744413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuneIconEmission_9
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 66
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 936099da7318115f0800000000000000
+      internalID: -787706383677454791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuneIconEmission_10
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 78
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 380ad8532efe7fc30800000000000000
+      internalID: 4393243716363329667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      RuneIconEmission_0: -8425027229252001637
+      RuneIconEmission_1: 2830323211802933441
+      RuneIconEmission_10: 4393243716363329667
+      RuneIconEmission_2: -4392396357969067798
+      RuneIconEmission_3: 4792342369333600888
+      RuneIconEmission_4: -3032191013718456616
+      RuneIconEmission_5: -4945191195050737566
+      RuneIconEmission_6: -136686202946022387
+      RuneIconEmission_7: 2172189423229799042
+      RuneIconEmission_8: 6092358343915744413
+      RuneIconEmission_9: -787706383677454791
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

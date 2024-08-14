@@ -11,7 +11,9 @@ public class Monster : MonoBehaviour, HealthSystem
     [SerializeField] private float damage;
     private bool alive;
     [Header("Monster Settings")]
+    [SerializeField] private GameObject xpObject;
     [SerializeField] private Vector2 movement;
+    private Transform xpParent;
     private TilemapCollider2D wallCollider;
     private CircleCollider2D monsterCollider;
     private Transform target;
@@ -31,6 +33,7 @@ public class Monster : MonoBehaviour, HealthSystem
         monsterCollider = damageArea.GetComponent<CircleCollider2D>();
         wallCollider = GameObject.FindGameObjectWithTag("Wall").GetComponent<TilemapCollider2D>();
         target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+        xpParent = GameObject.FindGameObjectWithTag("XPParent").transform;
         Physics2D.IgnoreCollision(monsterCollider, wallCollider, true);
         sr = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
@@ -53,10 +56,10 @@ public class Monster : MonoBehaviour, HealthSystem
         if (currentHealth <= 0)
         {
             alive = false;
-            CircleCollider2D collider = damageArea.GetComponent<CircleCollider2D>();
-            collider.enabled = false;
+            gameObject.tag = "Untagged";
+            damageArea.SetActive(false);
             animator.SetBool("Death", true);
-            StartCoroutine(death(1f));
+            StartCoroutine(death(0.7f));
         }
     }
 
@@ -73,6 +76,7 @@ public class Monster : MonoBehaviour, HealthSystem
     {
         yield return new WaitForSeconds(time);
         Destroy(gameObject);
+        Instantiate(xpObject, gameObject.transform.position, Quaternion.identity, xpParent);
     }
 
     private void monsterFollow(Vector2 direction)
@@ -99,8 +103,11 @@ public class Monster : MonoBehaviour, HealthSystem
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            HealthSystem healthSystem = collision.gameObject.GetComponent<HealthSystem>();
-            healthSystem.takeDamage(damage);
+            if (alive)
+            {
+                HealthSystem healthSystem = collision.gameObject.GetComponent<HealthSystem>();
+                healthSystem.takeDamage(damage);
+            }
         }
     }
 

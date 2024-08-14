@@ -9,6 +9,7 @@ TagManager:
   - Monster
   - Object
   - MonsterSpawn
+  - XPParent
   layers:
   - Default
   - TransparentFX
