@@ -1,8 +1,8 @@
+using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Rendering.Universal;
-using static UnityEngine.RuleTile.TilingRuleOutput;
 
 public enum Direction { Down, Right, Up, Left, DownLeft, DownRight, UpRight, UpLeft };
 
@@ -12,7 +12,9 @@ public class PlayerActions : MonoBehaviour, HealthSystem
     public float maxHealth;
     public float speed;
     public float damage;
-    public float collectibleArea = 1f;
+    public float healthRegen = 0.5f;
+    public float collectibleRadius = 1f;
+    public float shootSpeed = 1f;
     [Header("Other Player Attributes")]
     [SerializeField] private float currentHealth;
     [SerializeField] private int currentXP = 0;
@@ -23,21 +25,46 @@ public class PlayerActions : MonoBehaviour, HealthSystem
     [SerializeField] private Direction direction;
     private Rigidbody2D rigidBody;
     private Vector2 movement;
+    private bool regenControll = true;
+    private bool shootControll = true;
     [Header("Magic Shoot Settings")]
     public GameObject magicShootPrefab;
     private GameObject shootParent;
     private Vector3 target;
+    private CircleCollider2D collectibleArea;
 
     // Start is called before the first frame update
     void Awake()
     {
         currentHealth = maxHealth;
-        speed = 2;
         rigidBody = GetComponent<Rigidbody2D>();
+        collectibleArea = transform.GetChild(0).GetComponent<CircleCollider2D>();
         animator.SetFloat("x", 0f);
         animator.SetFloat("y", -1f);
         target = CameraTarget.getTarget();
         shootParent = GameObject.FindGameObjectWithTag("PlayerShoot").gameObject;
+    }
+
+    private void FixedUpdate()
+    {
+        idleAnimation();
+        movementAnimation();
+    }
+
+    private void Update()
+    {
+        if (regenControll && currentHealth < maxHealth)
+        {
+            StartCoroutine(healthRegenSystem());
+        }
+    }
+
+    IEnumerator healthRegenSystem()
+    {
+        regenControll = false;
+        yield return new WaitForSeconds(1/healthRegen);
+        heal(1);
+        regenControll = true;
     }
 
     public void setMovement(InputAction.CallbackContext value)
@@ -55,16 +82,19 @@ public class PlayerActions : MonoBehaviour, HealthSystem
 
     public void setShoot(InputAction.CallbackContext value)
     {
-        if (value.performed)
+        if (value.performed && shootControll)
         {
-            shoot();
+            StartCoroutine(shoot());
         }
     }
-    void shoot()
+    IEnumerator shoot()
     {
+        shootControll = false;
         Vector3 shootPosition = gameObject.transform.position;
         shootPosition.y += 0.3f;
         Instantiate(magicShootPrefab, shootPosition, Quaternion.identity, shootParent.transform);
+        yield return new WaitForSeconds(1/shootSpeed);
+        shootControll = true;
     }
 
 
@@ -86,12 +116,6 @@ public class PlayerActions : MonoBehaviour, HealthSystem
         animator.SetFloat("Horizontal", movement.x);
         animator.SetFloat("Vertical", movement.y);
         animator.SetFloat("Speed", movement.magnitude);
-    }
-
-    private void FixedUpdate()
-    {
-        idleAnimation();
-        movementAnimation();
     }
 
     public void setDirection(float x, float y)
@@ -129,6 +153,12 @@ public class PlayerActions : MonoBehaviour, HealthSystem
         return maxHealth;
     }
 
+    public void addMaxHealth(float add)
+    {
+        maxHealth += add;
+        currentHealth += add;
+    }
+
     public float getCurrentHealth()
     {
         return currentHealth;
@@ -147,6 +177,30 @@ public class PlayerActions : MonoBehaviour, HealthSystem
     public float getDamage()
     {
         return damage;
+    }
+
+    public void addDamage(float add)
+    {
+        damage += add;
+    }
+    public void addSpeed(float add)
+    {
+        speed += add;
+    }
+    public void addCollectibleArea(float add)
+    {
+        collectibleRadius += add;
+        collectibleArea.radius = collectibleRadius;
+    }
+
+    public void addHealthRegen(float add)
+    {
+        healthRegen += add;
+    }
+
+    public void addShootSpeed(float add)
+    {
+        shootSpeed += add;
     }
 
     public int getLevel()
@@ -169,6 +223,8 @@ public class PlayerActions : MonoBehaviour, HealthSystem
         currentXP = currentXP - maxXP;
         increaseMaxXp();
         Time.timeScale = 0f;
+        heal((int) maxHealth / 4);
+        AttributeSystem.instance.sortRune();
         PanelController.instance.goToScreen(1);
         if (AttributeSystem.instance.getVolume().profile.TryGet(out DepthOfField depthOfField)){
             depthOfField.active = true;
@@ -186,11 +242,11 @@ public class PlayerActions : MonoBehaviour, HealthSystem
 
     public float getCollectibleArea()
     {
-        return collectibleArea;
+        return collectibleRadius;
     }
 
-    public void getCollectibleArea(float collectibleArea)
+    public void getCollectibleArea(float collectibleRadius)
     {
-        this.collectibleArea = collectibleArea;
+        this.collectibleRadius = collectibleRadius;
     }
 }
