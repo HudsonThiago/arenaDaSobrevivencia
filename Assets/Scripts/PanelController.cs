@@ -37,7 +37,7 @@ public class PanelController : MonoBehaviour
         currentScreen = screenList[targetScreen];
     }
 
-    public void loadScene(int scene)
+    public void loadScene(string scene)
     {
         SceneManager.LoadScene(scene);
     }
