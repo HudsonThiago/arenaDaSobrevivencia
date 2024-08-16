@@ -6,6 +6,7 @@ using UnityEngine.UI;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 [Serializable] public class Rune
 {
@@ -44,6 +45,14 @@ public class AttributeSystem : MonoBehaviour
         instance = this;
         player = GameObject.FindGameObjectWithTag("Player");
         playerActions = player.GetComponent<PlayerActions>();
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("game");
+        }
     }
 
     public void choiceAttribute(int attributeIndex)
