@@ -39,6 +39,8 @@ public class PanelController : MonoBehaviour
 
     public void loadScene(string scene)
     {
+
+        Time.timeScale = 1f;
         SceneManager.LoadScene(scene);
     }
 }

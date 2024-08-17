@@ -37,6 +37,8 @@ public class AttributeSystem : MonoBehaviour
     private GameObject player;
     private PlayerActions playerActions;
     private List<string> indexList;
+    [SerializeField] private TextMeshProUGUI timer;
+
 
     // Start is called before the first frame update
     void Awake()
@@ -51,7 +53,7 @@ public class AttributeSystem : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            SceneManager.LoadScene("game");
+            gameOver();
         }
     }
 
@@ -81,15 +83,13 @@ public class AttributeSystem : MonoBehaviour
         }
         
         PanelController.instance.goToScreen(0);
-        Time.timeScale = 1f;
-        if (volume.profile.TryGet(out DepthOfField depthOfField))
-        {
-            depthOfField.active = false;
-        }
+        activeBlur(false);
     }
 
     public void sortRune()
     {
+        PanelController.instance.goToScreen(1);
+        activeBlur(true);
         List<Rune> auxRuneList = new List<Rune>(runeList);
         indexList = new List<string>();
         foreach (GameObject runeObject in runeGameObjectList)
@@ -120,5 +120,33 @@ public class AttributeSystem : MonoBehaviour
     public Volume getVolume()
     {
         return volume;
+    }
+
+    public void gameOver()
+    {
+        activeBlur(true);
+        PanelController.instance.goToScreen(2);
+        timer.text = Timer.getTimerToString();
+    }
+
+    public void victory()
+    {
+        activeBlur(true);
+        PanelController.instance.goToScreen(3);
+    }
+
+    private void activeBlur(bool trigger)
+    {
+        if (trigger)
+        {
+            Time.timeScale = 0f;
+        }else
+        {
+            Time.timeScale = 1f;
+        }
+        if (AttributeSystem.instance.getVolume().profile.TryGet(out DepthOfField depthOfField))
+        {
+            depthOfField.active = trigger;
+        }
     }
 }

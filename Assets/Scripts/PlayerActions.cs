@@ -135,7 +135,7 @@ public class PlayerActions : MonoBehaviour, HealthSystem
         currentHealth -= damage;
         if (currentHealth < 0)
         {
-            Debug.Log("Abatido");
+            AttributeSystem.instance.gameOver();
         }
     }
 
@@ -222,13 +222,8 @@ public class PlayerActions : MonoBehaviour, HealthSystem
         level++;
         currentXP = currentXP - maxXP;
         increaseMaxXp();
-        Time.timeScale = 0f;
         heal((int) maxHealth / 4);
         AttributeSystem.instance.sortRune();
-        PanelController.instance.goToScreen(1);
-        if (AttributeSystem.instance.getVolume().profile.TryGet(out DepthOfField depthOfField)){
-            depthOfField.active = true;
-        }
     }
 
     private void increaseMaxXp()
