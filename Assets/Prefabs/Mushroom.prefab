@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6709968849756683599}
   - component: {fileID: 3575464079753561296}
   - component: {fileID: 2710879161286799170}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DamageArea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 5262873073575023967}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.4221463, y: 5.5344486, z: 0}
+  m_LocalPosition: {x: 0, y: 0.07, z: 0}
   m_LocalScale: {x: 0.17999999, y: 0.17999999, z: 0.17999999}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -94,6 +94,7 @@ CircleCollider2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5262873073575023967}
   m_Enabled: 1
+  serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -117,10 +118,10 @@ CircleCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_UsedByComposite: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.2
+  m_Radius: 0.5
 --- !u!70 &2710879161286799170
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -129,6 +130,7 @@ CapsuleCollider2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5262873073575023967}
   m_Enabled: 1
+  serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -152,10 +154,11 @@ CapsuleCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 1
   m_UsedByEffector: 0
-  m_UsedByComposite: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.8, y: 0.8}
-  m_Direction: 0
+  m_Size: {x: 3, y: 2.2}
+  m_Direction: 1
 --- !u!1 &6216925476829375236
 GameObject:
   m_ObjectHideFlags: 0
@@ -170,7 +173,7 @@ GameObject:
   - component: {fileID: 4136125327844866490}
   - component: {fileID: 5545970603054617586}
   - component: {fileID: 4285204950911731790}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mushroom
   m_TagString: Monster
   m_Icon: {fileID: 0}
@@ -244,10 +247,10 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!95 &5920490075951170231
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -261,6 +264,7 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -282,7 +286,7 @@ MonoBehaviour:
   currentHealth: 20
   speed: 1.2
   damage: 5
-  xpObject: {fileID: 5317347226248242990, guid: c5b805e954779704faab0b5a667216c7, type: 3}
+  xpObject: {fileID: 4099252734354718026, guid: 01b1bfede08d0b6459e89075682b7eab, type: 3}
   movement: {x: 0, y: 0}
 --- !u!70 &5545970603054617586
 CapsuleCollider2D:
@@ -292,6 +296,7 @@ CapsuleCollider2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6216925476829375236}
   m_Enabled: 1
+  serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -315,9 +320,10 @@ CapsuleCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.014962435, y: 0.25261962}
-  m_Size: {x: 0.12347746, y: 0.3379357}
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0.0075466037, y: 0.25509155}
+  m_Size: {x: 0.16467631, y: 0.28355289}
   m_Direction: 0
 --- !u!50 &4285204950911731790
 Rigidbody2D:

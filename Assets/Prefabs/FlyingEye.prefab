@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8772192325272280554}
   - component: {fileID: 8691623358332702957}
   - component: {fileID: 3506073598612203921}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: FlyingEye
   m_TagString: Monster
   m_Icon: {fileID: 0}
@@ -205,7 +205,7 @@ GameObject:
   - component: {fileID: 3988842516347898201}
   - component: {fileID: 7498515247619850333}
   - component: {fileID: 9181343645584999670}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: DamageArea
   m_TagString: Untagged
   m_Icon: {fileID: 0}

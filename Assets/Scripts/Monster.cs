@@ -14,12 +14,9 @@ public class Monster : MonoBehaviour, HealthSystem
     [SerializeField] private GameObject xpObject;
     [SerializeField] private Vector2 movement;
     private Transform xpParent;
-    private TilemapCollider2D wallCollider;
-    private CircleCollider2D monsterCollider;
     private Transform target;
     private Animator animator;
     private Rigidbody2D rb;
-    private SpriteRenderer sr;
     private GameObject damageArea;
     private bool flipControll = true;
 
@@ -30,12 +27,8 @@ public class Monster : MonoBehaviour, HealthSystem
         alive = true;
         damageArea = gameObject.transform.GetChild(0).gameObject;
         rb = GetComponent<Rigidbody2D>();
-        monsterCollider = damageArea.GetComponent<CircleCollider2D>();
-        wallCollider = GameObject.FindGameObjectWithTag("Wall").GetComponent<TilemapCollider2D>();
         target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
         xpParent = GameObject.FindGameObjectWithTag("XPParent").transform;
-        Physics2D.IgnoreCollision(monsterCollider, wallCollider, true);
-        sr = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
     }
 

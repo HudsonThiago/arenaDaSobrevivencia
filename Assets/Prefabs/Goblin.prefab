@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7009949544250384027}
   - component: {fileID: 6590538555483337653}
   - component: {fileID: 4993875271312933229}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Goblin
   m_TagString: Monster
   m_Icon: {fileID: 0}
@@ -29,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 103205123319849553}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -4.452147, y: -2.8955517, z: 0}
   m_LocalScale: {x: 1.2999964, y: 1.2672127, z: 1}
   m_ConstrainProportionsScale: 0
@@ -88,10 +88,10 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!95 &7029153000373016863
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -105,6 +105,7 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -126,7 +127,7 @@ MonoBehaviour:
   currentHealth: 20
   speed: 1.2
   damage: 5
-  xpObject: {fileID: 5317347226248242990, guid: c5b805e954779704faab0b5a667216c7, type: 3}
+  xpObject: {fileID: 4099252734354718026, guid: 01b1bfede08d0b6459e89075682b7eab, type: 3}
   movement: {x: 0, y: 0}
 --- !u!50 &6590538555483337653
 Rigidbody2D:
@@ -163,6 +164,7 @@ CapsuleCollider2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 103205123319849553}
   m_Enabled: 1
+  serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -184,11 +186,12 @@ CapsuleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.022846065, y: 0.21406347}
-  m_Size: {x: 0.1749227, y: 0.35913414}
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0.026298216, y: 0.24739118}
+  m_Size: {x: 0.15604252, y: 0.29247874}
   m_Direction: 0
 --- !u!1 &1917530280903644436
 GameObject:
@@ -202,7 +205,7 @@ GameObject:
   - component: {fileID: 6172728852605806139}
   - component: {fileID: 6119090434550946749}
   - component: {fileID: 7589961093919668233}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DamageArea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -218,7 +221,7 @@ Transform:
   m_GameObject: {fileID: 1917530280903644436}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.223097, y: 3.8036234, z: 0}
+  m_LocalPosition: {x: 0, y: 0.049, z: 0}
   m_LocalScale: {x: 0.13846192, y: 0.14204402, z: 0.17999999}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -284,6 +287,7 @@ CircleCollider2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1917530280903644436}
   m_Enabled: 1
+  serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -307,10 +311,10 @@ CircleCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_UsedByComposite: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.2
+  m_Radius: 0.5
 --- !u!70 &7589961093919668233
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -319,6 +323,7 @@ CapsuleCollider2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1917530280903644436}
   m_Enabled: 1
+  serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -342,7 +347,8 @@ CapsuleCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 1
   m_UsedByEffector: 0
-  m_UsedByComposite: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.8, y: 0.8}
-  m_Direction: 0
+  m_Size: {x: 3, y: 2.2}
+  m_Direction: 1
