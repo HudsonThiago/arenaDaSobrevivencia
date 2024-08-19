@@ -90,6 +90,7 @@ public class PlayerActions : MonoBehaviour, HealthSystem
     IEnumerator shoot()
     {
         shootControll = false;
+        SoundController.instance.echoSound(0);
         Vector3 shootPosition = gameObject.transform.position;
         shootPosition.y += 0.3f;
         Instantiate(magicShootPrefab, shootPosition, Quaternion.identity, shootParent.transform);
@@ -220,6 +221,7 @@ public class PlayerActions : MonoBehaviour, HealthSystem
     private void levelUp()
     {
         level++;
+        SoundController.instance.echoSound(1);
         currentXP = currentXP - maxXP;
         increaseMaxXp();
         heal((int) maxHealth / 4);

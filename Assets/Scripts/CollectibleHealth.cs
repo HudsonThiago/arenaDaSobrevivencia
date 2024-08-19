@@ -10,6 +10,7 @@ public class CollectibleHealth : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
+            SoundController.instance.echoSound(2);
             HealthSystem healthSystem = collision.gameObject.GetComponent<HealthSystem>();
             healthSystem.heal(heal);
             Destroy(gameObject);

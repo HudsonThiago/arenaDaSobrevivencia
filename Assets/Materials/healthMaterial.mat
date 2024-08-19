@@ -96,5 +96,5 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Glow: {r: 0, g: 0.8077055, b: 2.1185472, a: 1}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
-    - _color: {r: 0.29365647, g: 1.3880652, b: 0, a: 1}
+    - _color: {r: 0.29365644, g: 1.3880651, b: 0, a: 1}
   m_BuildTextureStacks: []
