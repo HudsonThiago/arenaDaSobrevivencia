@@ -52,7 +52,7 @@ public class Monster : MonoBehaviour, HealthSystem
             gameObject.tag = "Untagged";
             damageArea.SetActive(false);
             animator.SetBool("Death", true);
-            StartCoroutine(death(0.7f));
+            StartCoroutine(death(0.8f));
         }
     }
 

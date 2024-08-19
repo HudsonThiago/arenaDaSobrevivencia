@@ -96,24 +96,12 @@ public class AttributeSystem : MonoBehaviour
         {
             int randomNumber = UnityEngine.Random.Range(0, auxRuneList.Count);
             indexList.Add(auxRuneList[randomNumber].getAttribute());
-
-            //runeObject.GetComponent<Button>().enabled = false;
             Image icon = runeObject.transform.GetChild(1).GetComponent<Image>();
             TextMeshProUGUI text = runeObject.transform.GetChild(2).GetComponent<TextMeshProUGUI>();
             Rune rune = auxRuneList[randomNumber];
             icon.sprite = rune.getSprite();
             text.text = rune.getDescription();
             auxRuneList.Remove(auxRuneList[randomNumber]);
-        }
-        //StartCoroutine(enableButton());
-    }
-
-    IEnumerator enableButton()
-    {
-        yield return new WaitForSeconds(1);
-        foreach (GameObject runeObject in runeGameObjectList)
-        {
-            runeObject.GetComponent<Button>().enabled = true;
         }
     }
 

@@ -232,7 +232,7 @@ public class PlayerActions : MonoBehaviour, HealthSystem
         else if (level == 2) maxXP = 25;
         else if (level == 3) maxXP = 50;
         else if (level == 4) maxXP = 100;
-        else maxXP = maxXP + 50;
+        else maxXP += 25;
     }
 
     public float getCollectibleArea()

@@ -282,8 +282,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6db540b4d73922844aa91d898ca8fe83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 20
-  currentHealth: 20
+  maxHealth: 50
+  currentHealth: 70
   speed: 1.2
   damage: 5
   xpObject: {fileID: 4099252734354718026, guid: 01b1bfede08d0b6459e89075682b7eab, type: 3}

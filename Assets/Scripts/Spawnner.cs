@@ -7,9 +7,9 @@ public class Spawnner : MonoBehaviour
     [SerializeField] private GameObject monster;
     [SerializeField, Range(1, 10)] private float radius = 1;
     [SerializeField, Range(10, 60)] private int timeForSpawn = 20;
-    [SerializeField, Range(10, 60*5)] private float initTime = 20;
-    [SerializeField, Range(60, 60*5)] private float maxTime = 60*2;
-    [SerializeField, Range(2, 5)] private int maxCount;
+    [SerializeField, Range(10, 60*10)] private float initTime = 20;
+    [SerializeField, Range(60, 60*10)] private float maxTime = 60*2;
+    [SerializeField, Range(1, 5)] private int maxCount;
     private int cicles = 1;
     private bool controll = true;
     private Transform monsterSpawnParent;
